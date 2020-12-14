@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+ body{
+   font-family: sans-serif;
+   margin: 0;
+   background-image: url("images/stars.jpg");
+   background-size: cover;
+   min-height: 100vh;
+   background-position: center center;
+   color: #f1f1f1;
+   display: flex;
+   align-items: center;
+
+   flex-direction: column;
+ }
+h1{
+  font-size:4rem;
+  margin-top: 5rem;
+  font-weight: normal;
+}
+
+
+ .Countdown-container{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+ }
+
+
+ .big-text{
+   font-weight: bold;
+   font-size: 6rem;
+   line-height: 1;
+   margin: 1rem 2rem;
+ }
+ .cen{
+   text-align: center;
+ }
+ .cen span {
+   font-size: 1.5rem;
+ }
